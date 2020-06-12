@@ -1,0 +1,347 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	font: 16px "Microsoft YaHei";
+}
+
+a {
+	text-decoration: none;
+}
+
+td {
+	width: 130px;
+}
+
+h3{
+	margin-left: 80px;
+	/* margin-top: 50px; */
+	/* float: left; */
+}
+
+table {
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+
+p {
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix:after {
+	content:"";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.header {
+	height: 100px;
+	/*width: 1000px;*/
+	/*background-image: url(images/T1.png);*/
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #f3f3f3;
+	/*background: grey url(images/1.jpg) no-repeat fixed left top;*/
+	/*display: inline;*/
+	/*margin: 0 auto;*/
+	/*text-align: center;*/
+}
+/* 上方导航栏 */
+.main {
+	height: 100px;
+	width: 1500px;
+	margin: 0 auto;
+}
+/* 导航栏左侧按钮 */
+#leftpart {
+	/* width: 310px; */
+	width: 550px;
+	height: 100px;
+	display: inline-block;
+	float: left;
+}
+
+.navA {
+	color: #212121;
+	height: 50px;
+	width: 100px;
+	line-height: 50px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.navA:hover {
+	background-color: #E7E7E7;
+}
+/* 导航栏中央搜索栏 */
+#midinput {
+	width: 361px;
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+}
+
+#input {
+	width: 300px;
+	height: 32px;
+}
+
+#selectButton {
+	width: 48px;
+	height: 40px;
+	background-color: #E7E7E7;
+	background-image: url(../img/button1.png);
+	display: inline-block;
+}
+
+#selectButton:hover {
+	background-image: url(../img/button2.png);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#liinline {
+	display: inline-block;
+	line-height: 100px;
+}
+
+.selectForm {
+	width: 361px;
+}
+/* 导航栏右侧按钮 */
+#rightpart {
+	height: 100px;
+	float: right;
+}
+/* 个人信息栏 */
+.message {
+	width: 1300px;
+	/* height: 500px; */
+	background-color: #F3F3F3;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+.message:hover {
+	background-color: #E7E7E7;
+	box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+}
+
+#messageTopPart {
+	padding-top: 20px;
+	width: 1300px;
+	height: 330px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+#messageLeftPart {
+	float: left;
+	height: 330px;
+	width: 386px;
+}
+
+#messageMidPart {
+	float: left;
+	margin-left: 20px;
+	margin-top: 45px;
+	height: 200px;
+	width: 400px;
+	line-height: 30px;
+}
+
+#messageRightPart {
+	height: 330px;
+	float: right;
+}
+
+#messageTopPartTable {
+	border-right: 1px solid black;
+	padding-right: 10px;
+}
+
+#messageBottomPart {
+	width: 1300px;
+	height: 50px;
+	padding-bottom: 20px;
+	/* background-color: red; */
+}
+
+#headPic {
+	height: 330px;
+	margin-right: 80px;
+}
+/* 求学经历栏 */
+.study {
+	width: 1300px;
+	/* height: 500px; */
+	background-color: #F3F3F3;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+.study:hover {
+	background-color: #E7E7E7;
+	box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+}
+
+#studyLeftPart {
+	padding-top: 20px;
+	width: 800px;
+	height: 280px;
+	margin-bottom: 30px;
+}
+
+#studyULPart {
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+	line-height: 30px;
+}
+/* 专业技能栏 */
+.hobby {
+	width: 1300px;
+	background-color: #F3F3F3;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+.hobby:hover {
+	background-color: #E7E7E7;
+	box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+}
+
+#hobby {
+	padding-top: 20px;
+	width: 1300px;
+	height: 280px;
+	margin-bottom: 30px;
+}
+
+#hobbyULPart {
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+	line-height: 30px;
+}
+/* 专业技能栏 */
+.technology {
+	width: 1300px;
+	/* height: 500px; */
+	background-color: #F3F3F3;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+.technology:hover {
+	background-color: #E7E7E7;
+	box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+}
+
+#technology {
+	padding-top: 20px;
+	width: 1300px;
+	height: 280px;
+	margin-bottom: 30px;
+}
+
+#technologyULPart {
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+	line-height: 30px;
+}
+/* 工作期望与薪资要求栏 */
+.workWill {
+	width: 1300px;
+	background-color: #F3F3F3;
+	margin: 20px auto;
+	border-radius: 10px;
+	/* float: left; */
+}
+
+.workWill:hover {
+	background-color: #E7E7E7;
+	box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+}
+
+#workWill {
+	float: left;
+	padding-top: 20px;
+	width: 400px;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+#workWillTable {
+	border-right: 1px solid black;
+	padding-right: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#workWillLeftPart {
+	/* float: left; */
+	height: 100px;
+	width: 400px;
+	border-bottom: 1px solid black;
+}
+
+#money {
+	float: left;
+	padding-top: 20px;
+	width: 400px;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+#moneyWillPart {
+	/* float: left; */
+	height: 100px;
+	width: 400px;
+	border-bottom: 1px solid black;
+}
+
+#moneyWillTable {
+	float: left;
+	border-right: 1px solid black;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+#workWillBottomPart {
+	float: left;
+	padding-bottom: 20px;
+}
+
+.lineList {
+	padding-top: 6px;
+	position: relative;
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	/* z-index: 2; */
+	float: right;
+}
